@@ -1,0 +1,177 @@
+/* Main Color Palette */
+$compbg: #ffffff;
+$text: #333333;
+
+/* Light-Dark Mode Switch */
+$dark: #191a1f;
+$dark-card-bg: #121318;
+$mode-toggle-bg: #262626;
+$light: #ffffff;
+$board-bg-light: #EEEEEE;
+
+/* We have 2 main font families to use from: Rajdhani and Montserrat */
+* {
+  font-family: "Montserrat", sans-serif;
+  /* text styling */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  /* word-breaking does the same but one or the other might not for some browsers*/
+  word-break: break-all;
+  word-break: break-word;
+  /* Adds a hyphen where the word breaks if supported */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  text-justify: inter-word;
+}
+.el-main {
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow-x: hidden !important;
+}
+
+/* Default Style of buttons */
+.btn {
+  background-color: white !important;
+  color: $text !important;
+  outline: $text !important;
+}
+.btn:hover {
+  background-color: $text !important;
+  color: $compbg !important;
+}
+
+/* General styling rules */
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: $text;
+}
+
+.title {
+  color: $text;
+  font-weight: 700;
+  font-size: 2rem;
+}
+ul li {
+  list-style: none;
+}
+.has-text-danger {
+  color: red !important;
+}
+
+/* Vuetify-like classes */
+.mt-05 {
+  margin-top: 5px;
+}
+.ml-05 {
+  margin-left: 5px;
+}
+.mt-1 {
+  margin-top: 10px;
+}
+.mb-1 {
+  margin-bottom: 10px;
+}
+.ml-1 {
+  margin-left: 10px;
+}
+.mr-1 {
+  margin-right: 10px;
+}
+
+.mt-1 {
+  margin-top: 20px;
+}
+.mb-2 {
+  margin-bottom: 20px;
+}
+.ml-2 {
+  margin-left: 20px;
+}
+.mr-2 {
+  margin-right: 20px;
+}
+
+.mt-3 {
+  margin-top: 30px;
+}
+.mb-3 {
+  margin-bottom: 30px;
+}
+.ml-3 {
+  margin-left: 28px;
+}
+.mr-3 {
+  margin-right: 30px;
+}
+
+.mt-4 {
+  margin-top: 40px;
+}
+.mb-4 {
+  margin-bottom: 40px;
+}
+.ml-4 {
+  margin-left: 40px;
+}
+.mr-4 {
+  margin-right: 40px;
+}
+
+/* Custom */
+.mt-5 {
+  margin-top: 60px;
+}
+.mb-5 {
+  margin-bottom: 60px;
+}
+.ml-5 {
+  margin-left: 35px;
+}
+.mr-5 {
+  margin-right: 60px;
+}
+.ml-7 {
+  margin-left: 78px;
+}
+.pl-1 {
+  padding-left: 4px;
+}
+
+/* Project Board CARDS */
+/* CARD LIB CSS */
+.flip-list-move {
+  transition: transform 0.5s;
+}
+.no-move {
+  transition: transform 0s;
+}
+.ghost {
+  opacity: 0.5;
+  background: #c8ebfb;
+}
+.list-group {
+  min-height: 20px;
+}
+.list-group-item {
+  cursor: move;
+}
+.list-group-item i {
+  cursor: pointer;
+}
+.vueDraggable {
+  background-color: #ebecf0;
+}
+.vueDraggable2 {
+  background-color: #ffffff;
+}
+
+/* mdi icons */
+.mdi {
+  font-size: 20px;
+}
